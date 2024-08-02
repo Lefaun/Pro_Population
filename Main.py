@@ -19,11 +19,11 @@ def simulate_population_step(population, birth_rate, death_rate):
 # Função para calcular as estatísticas
 def compute_statistics(data):
     mean = np.mean(data)
-    mode = stats.mode(data)[0][0]
+    #mode = stats.mode(data)[0][0]
     std_dev = np.std(data)
     variance = np.var(data)
     
-    return mean, mode, std_dev, variance
+    return mean, std_dev, variance
 
 # Função para realizar a regressão linear
 def perform_regression(time, population):
