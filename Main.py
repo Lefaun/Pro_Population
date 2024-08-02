@@ -55,7 +55,7 @@ if st.button("Iniciar Simulação"):
         births_data.append(births)
         deaths_data.append(deaths)
 
-        mean, mode, std_dev, variance = compute_statistics(population_data)
+        mean,  std_dev, variance = compute_statistics(population_data)
         
         st.write(f"Tempo: {second + 1}s")
         st.write(f"População Atual: {population}")
