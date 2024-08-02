@@ -62,7 +62,7 @@ if st.button("Iniciar Simulação"):
         st.write(f"Nascimentos no último segundo: {births}")
         st.write(f"Mortes no último segundo: {deaths}")
         st.write(f"Média da População: {mean}")
-        st.write(f"Moda da População: {mode}")
+       # st.write(f"Moda da População: {mode}")
         st.write(f"Desvio Padrão da População: {std_dev}")
         st.write(f"Variância da População: {variance}")
 
